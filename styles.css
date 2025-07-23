@@ -4,10 +4,11 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
     font-weight: bold;
+    color: #555152;
 }
 
 body{
-    background-color: #a93;
+    background-color: #effcde;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -16,14 +17,14 @@ body{
 }
 
 .flex-container{
-    background-color: #ba4;
+    background-color: #dce9be;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40rem;
     height: 37rem;
-    border: 3px solid #230;
+    border: 3px solid #99173c;
     border-radius: 6px;
     padding: 2rem;
 }
@@ -41,6 +42,7 @@ body{
 
 .title{
     margin-bottom: 5rem;
+    color: #2e2633;
 }
 
 .subtitleform{
@@ -52,13 +54,14 @@ body{
     width: 10rem;
     height: 2rem;
     background-color: transparent;
-    border: 2px solid #230;
+    border: 2px solid #99173c;
     border-radius: 4px;
     margin-bottom: 0.7rem;
 }
 
 #boton{
-    width: 4rem;
+    width: 6rem;
+    margin-top: 0.8rem;
 }
 
 #boton:hover{
@@ -74,12 +77,37 @@ body{
     background-color: #fff2;
     height: 3rem;
     width: 30rem;
-    border: 2px solid #230;
+    border: 2px solid #99173c;
     border-radius: 4px;
     margin-top: 2rem;
+    cursor: pointer;
+}
+
+.subtitleact{
+    margin-bottom: 0.8rem;
+    color: #2e2633;
 }
 
 .actividadc{
-    text-decoration: line-through;
-    background-color: #fff1;
+    background-color: #0003;
+    p{
+        text-decoration: line-through;
+    }
+}
+
+.eliminar{
+    background-color: #effcde;
+    text-align: center;
+    padding: 0.2rem;
+    border: 2px solid #99173c;
+    border-radius: 3px;
+    
+}
+.actividad:hover,.eliminar:hover{
+    background-color: #0003;
+}
+.actividad{
+    p{
+        width: 80%;
+    }
 }
